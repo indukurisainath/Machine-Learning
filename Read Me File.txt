@@ -1,0 +1,16 @@
+Expenditure Prediction Model
+This project aims to predict the expenditure of students based on collected data using Google Forms. The project includes data collection, data analysis, and the selection of the best predictive model.
+
+Dataset
+The dataset used for this project consists of responses collected from students through a Google Form survey. The survey included various questions related to student demographics, income, and expenditure habits. The dataset is stored in a CSV file named "expenditure_data.csv" and is included in the repository.
+
+Data Analysis
+Before building the prediction model, the collected data was analyzed to gain insights and identify relevant features. Exploratory data analysis techniques were applied to understand the distribution, correlations, and patterns in the dataset. Visualizations were created using Python libraries such as Pandas, Matplotlib, and Seaborn.
+
+Model Selection
+Multiple machine learning models were trained and evaluated using the collected data to predict the expenditure of students. The following models were considered:
+
+Linear Regression
+Random Forest Regression
+Gradient Boosting Regression
+The models were assessed based on performance metrics such as mean squared error (MSE), mean absolute error (MAE), and R-squared. The model with the best overall performance was selected as the final expenditure prediction model.
